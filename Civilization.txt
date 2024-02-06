@@ -1,0 +1,20 @@
+# Simplified version of Civilization VI-like game
+class CivilizationVI:
+    def __init__(self):
+        self.resources = {"gold": 100, "food": 50, "science": 0}
+        self.territory = {"city": "capital"}
+
+    def build_city(self):
+        pass
+
+    def research_technology(self):
+        pass
+
+    def conduct_diplomacy(self):
+        pass
+
+    def wage_war(self):
+        pass
+
+# Example usage:
+civilization = CivilizationVI()
